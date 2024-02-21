@@ -10,12 +10,14 @@ Avaliação da segunda e terceira sprints do programa de bolsas Compass UOL para
 
 Faça um sistema em JavaScript/NodeJS que produza uma interface para consulta de API pública. Este sistema deverá estar em container com **Docker**, em cloud AWS. 
 
+**O trabalho será em equipes, escolhidas por sorteio. Serão informadas no chat tira-dúvidas.**
+
 **Especificações**:
 
 1. Escolher uma API pública (em <https://any-api.com/> , ou qualquer outra, e **deve ser diferente das demais equipes**);
 2. Consumir esta API utilizando NodeJS;
 3. Subir esta API utilizando Docker;
-4. Criar uma página html para fazer consultas à API (pode ser bem simples, o layout não será avaliado).
+4. Criar uma página html para fazer consultas à API construída em NodeJS (pode ser bem simples, o layout não será avaliado).
 
 ### Docker
 
@@ -24,9 +26,9 @@ Execução em Docker, dentro da AWS Cloud.
 * Subir o projeto NodeJS em Docker na cloud AWS.
 * O grupo pode ficar livre quanto à estratégia adotada para executar o Docker na AWS.
 * Exemplos de como executar:
-  * [Deploy Node js Application on AWS EC2 Server] (https://youtu.be/VHzeoDK6L0c?feature=shared)
-  * [Deploy Node JS Docker Container to AWS ECS Cluster (Fargate)] (https://youtu.be/FTNKDgN4CGI?feature=shared)
-  * [Realizando seu primeiro deploy para o ECS da AWS] (https://youtu.be/x0bfNHo88Cg?feature=shared)
+  * [Deploy Node js Application on AWS EC2 Server](https://youtu.be/VHzeoDK6L0c?feature=shared)
+  * [Deploy Node JS Docker Container to AWS ECS Cluster (Fargate)](https://youtu.be/FTNKDgN4CGI?feature=shared)
+  * [Realizando seu primeiro deploy para o ECS da AWS](https://youtu.be/x0bfNHo88Cg?feature=shared)
 
 
 ***
@@ -54,7 +56,7 @@ Execução em Docker, dentro da AWS Cloud.
 - **O trabalho deve ser feito em grupos de três ou quatro pessoas**;
 - Criar um repositório no Github;
 - Conferir se a API desejada já não foi escolhida por outra equipe;
-- Subir o trabalho na branch com um README.md:
+- Subir o trabalho no repositório da equipe com um README.md:
   - documentar detalhes sobre como a avaliação foi desenvolvida;
   - dificuldades conhecidas;
   - como utilizar o sistema;
